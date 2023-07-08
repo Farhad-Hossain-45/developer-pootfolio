@@ -155,6 +155,7 @@ main{
 .download-cv{
     text-align: center;
     margin-top: 55px;
+    margin-bottom: 125px;
 }
 .education-title{
     color: #474747;
@@ -175,6 +176,29 @@ main{
     font-size: 16px
     
 }
+footer{
+    background-color: #FFF8F3;
+    
+}
+.footer-conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+#name{
+    width: 461px;
+    height: 64px;
+   
+}
+.text-name{
+    margin-bottom: 24px;
+}
+#text-area{
+    margin-top: 24px;
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px;
+}
+
     
     
 
