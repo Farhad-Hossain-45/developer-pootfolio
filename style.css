@@ -133,6 +133,7 @@ main{
 .skills-conteiner{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 130px;
 }
 .skill{
     border-radius: 5px;
@@ -144,6 +145,46 @@ main{
 .skill-discription{
     color:#757575;
 }
+.education-section-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 71px;
+    margin-top: 113px;
+    
+}
+.download-cv{
+    text-align: center;
+    margin-top: 55px;
+}
+.education-title{
+    color: #474747;
+    font-size: 25px;
+    margin-top: 30px;
+    
+}
+.univarsity{
+    color:#757575;
+    font-size: 20px;
+    
+    
+}
+.education-para{
+    color:#757575;
+    margin-bottom: 30px;
+
+    font-size: 16px
+    
+}
+    
+    
+
+
+
+
+
+
+
+
 
   
     
