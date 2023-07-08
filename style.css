@@ -126,6 +126,24 @@ main{
     text-align: center;
     font-size: 20px;
 }
+.about-discription{
+    padding: 30px 150px;
+    color: #757575;
+}
+.skills-conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    gap: 24px;
+}
+.skill-discription{
+    color:#757575;
+}
 
   
     
