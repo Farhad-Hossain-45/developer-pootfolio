@@ -199,7 +199,66 @@ footer{
     margin-bottom: 24px;
 }
 
+  /* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 576px) {
+    .skills-conteiner,.about-info-container, .banner, nav, nav > ul{
+        flex-direction: column;
+    }
+    .about-discription{
+        padding: 20px;
+    }
+    .education-section-container{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .footer-conteiner{
+        flex-direction: column;
+        
+    }
+    #name, #text-area{
+        width: 100%;
+    }
     
+    .about-section{
+        padding: 20px;
+    }
+    .banner-photo{
+        width: 100%;
+    }
+    nav > ul{
+        gap: 10px;
+    }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .skills-conteiner{
+     
+      flex-wrap: wrap;
+    }
+    .education-section-container{
+        flex-direction: column;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    education-section-container{
+        flex-direction: row;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}  
     
 
 
